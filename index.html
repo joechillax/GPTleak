@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebirth</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Our site has moved. Redirecting you to the new location...</p>
+        <p>If you are not redirected automatically, you can <a href="https://www.youtube.com/watch?v=HIcSWuKMwOw">click here</a>.</p>
+    </div>
+
+    <script>
+        // Redirect function
+        function redirectToNewSite() {
+            window.location.href = "https://www.youtube.com/watch?v=HIcSWuKMwOw";
+        }
+
+        // Set timeout to redirect after 5 seconds
+        setTimeout(redirectToNewSite, 5000);
+    </script>
+</body>
+</html>
